@@ -22,7 +22,7 @@ class SimpleTest {
     @Test
     void checkTrue() {
         boolean condition = simple.isPositive(12);
-        assertTrue(condition);
+        assertTrue(condition); //(assertion che questa condizione sia vera, nel caso di true, luce verde)
     }
 
     /**
